@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Créditos</title>
+    <link rel="icon" type="image/png" href="https://img.icons8.com/ios-filled/50/ffffff/calculator.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffe6f0;
+            margin: 80px auto 20px auto;
+            padding: 20px;
+            color: #c2185b;
+        }
+        nav {
+            background: linear-gradient(135deg, #f06292, #ec407a);
+            width: 100%;
+            padding: 10px 0;
+            box-shadow: 0 2px 10px rgba(216, 27, 96, 0.4);
+            position: fixed;
+            top: 0;
+            z-index: 10;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        nav ul li a:hover {
+            background-color: #d81b60;
+        }
+        .header {
+            background: linear-gradient(135deg, #f06292, #ec407a);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(216, 27, 96, 0.4);
+            text-align: center;
+            margin-bottom: 30px;
+            position: relative;
+            overflow: hidden;
+        }
+        .header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://www.transparenttextures.com/patterns/diamond-upholstery.png');
+            opacity: 0.1;
+            z-index: 0;
+        }
+        .header h1 {
+            color: #fff;
+            font-size: 2em;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            position: relative;
+            z-index: 1;
+        }
+        .header img {
+            width: 40px;
+            vertical-align: middle;
+            margin-right: 10px;
+            position: relative;
+            z-index: 1;
+        }
+        .content {
+            background: #fff0f5;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(216, 27, 96, 0.3);
+            border: 2px solid #f06292;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        p {
+            color: #880e4f;
+            line-height: 1.6;
+        }
+        a {
+            color: #d81b60;
+        }
+        @media (max-width: 600px) {
+            body {
+                margin-top: 120px;
+            }
+            .header h1 {
+                font-size: 1.5em;
+            }
+            .header img {
+                width: 30px;
+            }
+            .content {
+                margin: 0 10px;
+            }
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
+            nav ul li a {
+                padding: 8px 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="calculadora.html">Calculadora</a></li>
+            <li><a href="sobre.html">Sobre Juros Compostos</a></li>
+            <li><a href="creditos.html">Créditos</a></li>
+        </ul>
+    </nav>
+    <header class="header">
+        <h1>
+            <img src="https://img.icons8.com/ios-filled/50/ffffff/calculator.png" alt="Ícone de Calculadora">
+            Créditos
+        </h1>
+    </header>
+    <div class="content">
+        <p><strong style="font-size: 1.2em; color: #ad1457;">Alunos: Maycon Yan, Maria Fernanda</strong></p>
+        <p>Ícones fornecidos por <a href="https://icons8.com" target="_blank">Icons8</a>.</p>
+        <p>Textura de fundo por <a href="https://www.transparenttextures.com" target="_blank">Transparent Textures</a>.</p>
+        <p>Confetes animados com <a href="https://www.confetti.js.org" target="_blank">canvas-confetti</a>.</p>
+    </div>
+</body>
+</html>
